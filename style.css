@@ -1,0 +1,41 @@
+body {
+    background-color: #708D81;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      height: 100vh; 
+      margin: 0; 
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .grid-item {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .image-container {
+    max-width: 100%;
+  }
+  
+
+  
+  
